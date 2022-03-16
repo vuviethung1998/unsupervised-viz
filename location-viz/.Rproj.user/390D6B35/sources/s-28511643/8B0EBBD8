@@ -1,0 +1,27 @@
+{
+    "id": "8B0EBBD8",
+    "path": "D:/code/r-code/unsupervised-viz/location-viz/box-plot-feat-viz.R",
+    "project_path": "box-plot-feat-viz.R",
+    "type": "r_source",
+    "hash": "1377117354",
+    "contents": "",
+    "dirty": false,
+    "created": 1646190924505.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "35,0",
+        "scrollLine": "7"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1646279057,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1646279057306,
+    "read_only": false,
+    "read_only_alternatives": []
+}
