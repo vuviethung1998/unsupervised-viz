@@ -1,36 +1,31 @@
 ,location,longitude,latitude,c,label
-0,东四,116.417,39.929,#FF0000,train set
-1,天坛,116.407,39.886,#FF0000,train set
-2,官园,116.339,39.929,#FF0000,train set
-3,万寿西宫,116.352,39.878,#FF0000,train set
-4,奥体中心,116.397,39.982,#FF0000,train set
-5,农展馆,116.461,39.937,#FF0000,train set
-6,万柳,116.287,39.987,#FF0000,train set
-7,北部新区,116.174,40.09,#FF0000,train set
-8,植物园,116.207,40.002,#FF0000,train set
-9,丰台花园,116.279,39.863,#FF0000,train set
-10,云岗,116.146,39.824,#FF0000,train set
-11,古城,116.184,39.914,#FF0000,train set
-12,房山,116.136,39.742,#FF0000,train set
-13,大兴,116.404,39.718,#FF0000,train set
-14,亦庄,116.506,39.795,#FF0000,train set
-15,通州,116.663,39.886,#FF0000,train set
-16,顺义,116.655,40.127,#00FF00,validation set
-17,昌平,116.23,40.217,#00FF00,validation set
-18,门头沟,116.106,39.937,#00FF00,validation set
-19,平谷,117.1,40.143,#00FF00,validation set
-20,怀柔,116.628,40.328,#0000FF,test set
-21,密云,116.832,40.37,#0000FF,test set
-22,延庆,115.972,40.453,#0000FF,test set
-23,定陵,116.22,40.292,#0000FF,test set
-24,八达岭,115.988,40.365,#0000FF,test set
-25,密云水库,116.911,40.499,#0000FF,test set
-26,东高村,117.12,40.1,#0000FF,test set
-27,永乐店,116.783,39.712,#0000FF,test set
-28,榆垡,116.3,39.52,#0000FF,test set
-29,琉璃河,116.0,39.58,#0000FF,test set
-30,前门,116.395,39.899,#0000FF,test set
-31,永定门内,116.394,39.876,#0000FF,test set
-32,西直门北,116.349,39.954,#0000FF,test set
-33,南三环,116.368,39.856,#0000FF,test set
-34,东四环,116.483,39.939,#0000FF,test set
+0,SOM [AQ],-2.735253,51.03572,#FF0000,train set
+1,HRL [AQ],-0.441614,51.48879,#FF0000,train set
+2,THUR [AQ],0.317969,51.47707,#FF0000,train set
+3,WC [AQ],-2.468931,54.616238,#FF0000,train set
+4,BPLE [AQ],-4.041924,51.074793,#FF0000,train set
+5,HARR [AQ],-0.352051,51.57389,#FF0000,train set
+6,MACK [AQ],-2.68345,51.05625,#FF0000,train set
+7,SWAN [AQ],-3.943329,51.62114,#FF0000,train set
+8,BRS8 [AQ],-2.584482,51.462839,#FF0000,train set
+9,LINC [AQ],-0.537895,53.22889,#FF0000,train set
+10,HORE [AQ],-0.167734,51.165865,#FF0000,train set
+11,BRAD [AQ],-1.748694,53.79339,#FF0000,train set
+12,BRS [AQ],-2.578496,51.45365,#FF0000,train set
+13,ESK [AQ],-3.206111,55.31531,#FF0000,train set
+14,NWBV [AQ],-1.188851,52.969377,#00FF00,valid set
+15,WTHG [AQ],-0.379916,50.832947,#00FF00,valid set
+16,CARL [AQ],-2.945307,54.894834,#00FF00,valid set
+17,PLYM [AQ],-4.142361,50.37167,#00FF00,valid set
+18,WEYB [AQ],1.122017,52.95049,#00FF00,valid set
+19,BRS2 [AQ],-2.583519,51.45603,#00FF00,valid set
+20,DUMB [AQ],-4.55973,55.943197,#00FF00,valid set
+21,BR11 [AQ],-2.583975,51.457968,#00FF00,valid set
+22,CHBR [AQ],-1.780888,50.735454,#00FF00,valid set
+23,BORN [AQ],-1.826744,50.73957,#00FF00,valid set
+24,BRIS [AQ],-2.585622,51.45718,#0000FF,test set
+25,SWA1 [AQ],-3.947374,51.632696,#0000FF,test set
+26,PLYR [AQ],-4.130288,50.411058,#0000FF,test set
+27,LIN3 [AQ],-0.534189,53.221373,#0000FF,test set
+28,HIL [AQ],-0.460861,51.49633,#0000FF,test set
+29,SV [AQ],-4.776583,57.734456,#0000FF,test set
