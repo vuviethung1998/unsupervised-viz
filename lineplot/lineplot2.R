@@ -1,18 +1,16 @@
 ##### read data   
-data<-read.csv("../data/ablation_study/IDW/Station_25.csv",header=T,sep=",")
+data<-read.csv("../data/ablation_study/coruppt0408/Station_3.csv",header=T,sep=",")
 data
 ##### define data range 
-
-
-max_x <- max(data$X[0:250]) ## minimum x 
-min_x <- min(data$X[0:250])  ## maximum x
-max_y <- max(data$Groundtruth[0:250], data$Predict[0:250])  ## minimum y
-min_y <- min(data$Groundtruth[0:250], data$Predict[0:250])  ## maximum x
+max_x <- max(data$X[600:850]) ## minimum x 
+min_x <- min(data$X[600:850])  ## maximum x
+max_y <- max(data$ground_truth[600:850], data$prediction[600:850])  ## minimum y
+min_y <- min(data$ground_truth[600:850], data$prediction[600:850])  ## maximum x
 ### max_e <- max(data$inma_e, data$qlearning_e, data$nocharge_e)  ### maximum error 
 
 ##### export eps file 
 setEPS()
-postscript("../output/idw.eps",height=6.5, width=6.5)
+postscript("../output/gede_stat3.eps",height=6.5, width=6.5)
 
 ##### define margins 
 par(mar=c(5, 5, 1, 1) + 0.1)
@@ -31,8 +29,8 @@ axis(1, at = seq(0, 250, by = 20), las=1,  cex.axis=1.5)
 
 ##### to draw lines 
 ##### pch is the type of point; lty is the type of line; col is the color; lwd is the weight of the line, cex is the size of the point. 
-lines(data$X[0:250], data$Groundtruth[0:250], type="l", pch=0, lty=1, col=plot_colors[1], lwd=2.5, cex = 1.6)
-lines(data$X[0:250],data$Predict[0:250], type="l", pch=1, lty=1, col=plot_colors[2], lwd=2.5, cex = 1.6)
+lines(data$X[600:850], data$ground_truth[600:850], type="l", pch=0, lty=1, col=plot_colors[1], lwd=2.5, cex = 1.6)
+lines(data$X[600:850],data$prediction[600:850], type="l", pch=1, lty=1, col=plot_colors[2], lwd=2.5, cex = 1.6)
 # lines(data$node, data$inma, type="o", pch=2, lty=1, col=plot_colors[3], lwd=2.5, cex = 1.6)
 # lines(data$node, data$nocharge, type="o", pch=5, lty=1, col=plot_colors[4], lwd=2.5, cex = 1.6)
 
@@ -45,7 +43,7 @@ lines(data$X[0:250],data$Predict[0:250], type="l", pch=1, lty=1, col=plot_colors
 #legend(bty = "n","topright", c("GALM","GRLM","INMA", "HPSOGA)","No charging"),pch=c(0,2,5,8), lty=c(1,1,1,1,1), col=plot_colors, cex=1.6, x.intersp=1, y.intersp=1.5)
 
 ###### to draw the legend
-legend(bty = "n","topright", horiz=TRUE, c("Groundtruth", "IDW"),pch=c(0,1,2,5), lty=c(1,1,1,1), col=plot_colors, lwd=1, cex=1.6, x.intersp=1, y.intersp=1.5)
+legend(bty = "n","topright", c("Groundtruth", "GEDE"),pch=c(0,1,2,5), lty=c(1,1,1,1), col=plot_colors, lwd=1, cex=1.6, x.intersp=1, y.intersp=1.5)
 
 dev.off()
     

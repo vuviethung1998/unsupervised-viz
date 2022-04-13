@@ -1,5 +1,5 @@
 # read the data 
-data<-read.csv("../data/location_viz_test3.csv",header=T,sep=",")
+data<-read.csv("../data/location_viz_test2.csv",header=T,sep=",")
 
 # define the min, max of x and y 
 max_x <- max(data$longitude)
@@ -9,7 +9,7 @@ min_y <- min(data$latitude)
 
 # export to eps file 
 setEPS()
-postscript("test3_distribution.eps",height=6, width=6)
+postscript("test2_distribution.eps",height=6, width=6)
 
 # define the margin of the figure 
 par(mar=c(5, 5, 1, 1) + 0.1)
@@ -31,9 +31,9 @@ s2 <- data[data$c == "#00FF00",]
 s3 <- data[data$c == "#0000FF",]
 s1$longitude
 
-lines(s1$longitude, s1$latitude, type="o", pch=17, lty=0, col=plot_colors[1], cex=.8, lwd=1.5)
-lines(s2$longitude, s2$latitude, type="o", pch=8, lty=0, col=plot_colors[2], cex=.8, lwd=1.5)
-lines(s3$longitude, s3$latitude, type="o", pch=16, lty=0, col=plot_colors[3], cex=.8, lwd=1.5)
+lines(s1$longitude, s1$latitude, type="o", pch=17, lty=0, col=plot_colors[1], cex=1.5, lwd=1.6)
+lines(s2$longitude, s2$latitude, type="o", pch=8, lty=0, col=plot_colors[2], cex=1.5, lwd=1.6)
+lines(s3$longitude, s3$latitude, type="o", pch=16, lty=0, col=plot_colors[3], cex=1.5, lwd=1.6)
 abline(h=0, col="blue")
 
 #draw the legend 
